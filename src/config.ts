@@ -1,6 +1,6 @@
 export const siteConfig = {
   name: "Kaiwen Guo",
-  title: "M.Eng Student at Cornell University",
+  title: "M.Eng Computer Science Student at Cornell University",
   description: "Portfolio website of Kaiwen Guo",
   accentColor: "#1d4ed8",
   social: {
