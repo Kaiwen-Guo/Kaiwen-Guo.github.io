@@ -1,92 +1,103 @@
 export const siteConfig = {
-  name: "Ryan Fitzgerald",
-  title: "Senior Software Engineer",
-  description: "Portfolio website of Ryan Fitzgerald",
+  name: "Kaiwen Guo",
+  title: "M.Eng Student at Cornell University",
+  description: "Portfolio website of Kaiwen Guo",
   accentColor: "#1d4ed8",
   social: {
-    email: "your-email@example.com",
-    linkedin: "https://linkedin.com/in/yourprofile",
-    twitter: "https://x.com/rfitzio",
-    github: "https://github.com/RyanFitzgerald",
+    email: "kaiwenguo2025@gmail.com",
+    linkedin: "https://www.linkedin.com/in/kaiwen-guo-a28a40289/",
+    github: "https://github.com/Kaiwen-Guo",
   },
   aboutMe:
-    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem quos asperiores nihil consequatur tempore cupiditate architecto natus commodi corrupti quas quasi facere est, dignissimos odit nam veniam sapiente ut, vitae eligendi ipsum dolor, nostrum ullam impedit! Corrupti ratione mollitia temporibus necessitatibus, consectetur reiciendis recusandae id, dolorum quaerat, vero pariatur. Ratione!",
-  skills: ["Javascript", "React", "Node.js", "Python", "AWS", "Docker"],
-  projects: [
+    "Hi! I’m Kaiwen Guo, a Master of Engineering student in Computer Science at Cornell University, focusing on AI, systems, and media innovation. I graduated from NYU in May 2025 with a B.S. in Computer Science. My experience includes internships at Sohu Inc.'s Media Innovation Technology Lab and research at NYU’s High-Speed Research Network and FAMS Lab. My interests lie in machine learning systems, real-time data infrastructure, and AI for media.",
+  skills: ["Python", "LLM", "Agents", "Kubernetes", "Docker"],
+  news: [
     {
-      name: "AI Dev Roundup Newsletter",
+      name: "Sep 2025",
       description:
-        "One concise email. Five minutes. Every Tuesday. Essential AI news & trends, production-ready libraries, powerful AI tools, and real-world code examples",
-      link: "https://aidevroundup.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "My paper “MAJI: A Multi-Agent Workflow for Augmenting Journalistic Interviews” has been accepted to IJCNLP-AACL 2025 (Main Track)! Many thanks to my mentor, Yimeng Wu, for the invaluable guidance and collaboration.",
+      skills: ["Paper"],
     },
     {
-      name: "Chrome Extension Mastery: Build Full-Stack Extensions with React & Node.js",
+      name: "May 2025",
       description:
-        "Master the art of building production-ready, full-stack Chrome Extensions using modern web technologies and best practices",
-      link: "https://fullstackextensions.com/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Started as an AI Research Intern at the Media Innovation Technology (MINT) Lab, Sohu Inc., working on multi-agent systems for computational journalism and editorial intelligence.",
+      skills: ["Internship"],
     },
     {
-      name: "ExtensionKit",
+      name: "May 2025",
       description:
-        "Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates & examples",
-      link: "https://extensionkit.io/?ref=devportfolio",
-      skills: ["React", "Node.js", "AWS"],
+        "Graduated from New York University (NYU) with a B.S. in Computer Science with CSE Senior Academic Achievement Award!",
+      skills: ["Graduation"],
+    },
+    {
+      name: "May 2025",
+      description:
+        "My poster on “Real-Time Biometric Data Integration in Digital Learning: System for Optimizing Emotional Engagement” was accepted to the NYU Undergraduate Research Conference.",
+      skills: ["Poster"],
+    },
+    {
+      name: "May 2025",
+      description:
+        "My poster on “From Thought to Action: Real-Time Closed-Loop Systems in Neuroscience” was accepted to the NYU Undergraduate Research Conference.",
+      skills: ["Poster"],
+    },
+    {
+      name: "Feb 2025",
+      description:
+        "My paper “Explore the Possibility of Monitoring Project Member Interactions Using Natural Language Processing” has been accepted to ASEE 2025! Many thanks to my mentor, Dr. Rui Li, for the invaluable guidance and collaboration.",
+      skills: ["Paper"],
     },
   ],
   experience: [
     {
-      company: "Tech Company",
-      title: "Senior Software Engineer",
-      dateRange: "Jan 2022 - Present",
+      company: "Sohu Inc.",
+      title: "AI Research Intern",
+      dateRange: "May 2025 - Present",
       bullets: [
-        "Led development of microservices architecture serving 1M+ users",
-        "Reduced API response times by 40% through optimization",
-        "Mentored team of 5 junior developers",
+        "Working on multi-agent systems for computational journalism and editorial intelligence.",
+        "First author of the paper 'MAJI: A Multi-Agent Workflow for Augmenting Journalistic Interviews', accepted to IJCNLP-AACL 2025 (Main Track).",
       ],
     },
     {
-      company: "Startup Inc",
-      title: "Full Stack Developer",
-      dateRange: "Jun 2020 - Dec 2021",
+      company: "Flexible AI-enabled Mechatronic Systems Lab (FAMS)",
+      title: "Education AI Team Lead",
+      dateRange: "May 2024 - May 2025",
       bullets: [
-        "Built and launched MVP product from scratch using React and Node.js",
-        "Implemented CI/CD pipeline reducing deployment time by 60%",
-        "Collaborated with product team to define technical requirements",
+        "First author of the paper 'Explore the Possibility of Monitoring Project Member Interactions Using Natural Language Processing', accepted to ASEE 2025.",
       ],
     },
     {
-      company: "Digital Agency",
-      title: "Frontend Developer",
-      dateRange: "Aug 2018 - May 2020",
-      bullets: [
-        "Developed responsive web applications for 20+ clients",
-        "Improved site performance scores by 35% on average",
-        "Introduced modern JavaScript frameworks to legacy codebases",
-      ],
+      company: "NYU High Speed Research Network",
+      title: "Real-time Application Team Lead",
+      dateRange: "Sep 2023 - May 2025",
+      bullets: [],
+    },
+    {
+      company: "NYU Tandon School of Engineering",
+      title: "Computer Networking Teaching Assistant",
+      dateRange: "Jan 2024 - May 2025",
+      bullets: [],
     },
   ],
   education: [
     {
-      school: "University Name",
-      degree: "Bachelor of Science in Computer Science",
-      dateRange: "2014 - 2018",
-      achievements: [
-        "Graduated Magna Cum Laude with 3.8 GPA",
-        "Dean's List all semesters",
-        "President of Computer Science Club",
-      ],
+      school: "Cornell University",
+      degree: "M.Eng. in Computer Science",
+      dateRange: "Sep 2025 - May 2026",
+      achievements: [],
     },
     {
-      school: "Online Platform",
-      degree: "Full Stack Development Certificate",
-      dateRange: "2019",
-      achievements: [
-        "Completed 500+ hours of coursework",
-        "Built 10+ portfolio projects",
-        "Specialized in React and Node.js",
-      ],
+      school: "New York University",
+      degree: "B.S. in Computer Science",
+      dateRange: "Dec 2022 - May 2025",
+      achievements: ["CSE Senior Academic Achievement Award", "Dean's Undergraduate Research Fund (DURF) Grant * 2"],
+    },
+    {
+      school: "The Ohio State University",
+      degree: "",
+      dateRange: "Aug 2021 - Dec 2022",
+      achievements: [],
     },
   ],
 };
